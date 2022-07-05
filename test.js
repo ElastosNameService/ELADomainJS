@@ -4,11 +4,11 @@ const config =
 {
 	testnet:{
 		rpcUrl: "",
-		contactAddress: ""
+		contractAddress: ""
 	},
 	mainnet:{ 
 		rpcUrl: "https://api.elastos.io/eth",
-		contactAddress: "0xA1019535E6b364523949EaF45F4B17521c1cb074"
+		contractAddress: "0xA1019535E6b364523949EaF45F4B17521c1cb074"
 	},
 	defaultNetwork: "mainnet"
 }
