@@ -2,7 +2,7 @@
 
 Nodejs SDK
 
-Npm: https://www.npmjs.com/package/eladomains
+Npm: https://www.npmjs.com/package/eladomainjs
 
 Github: https://github.com/ElastosNameService/ELADomainJS
 
