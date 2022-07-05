@@ -194,6 +194,19 @@
 			"type": "event"
 		},
 		{
+			"inputs": [],
+			"name": "WhiteListDiscount",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
 			"inputs": [
 				{
 					"internalType": "bytes",
@@ -943,6 +956,19 @@
 		},
 		{
 			"inputs": [],
+			"name": "isWhiteList4Discount",
+			"outputs": [
+				{
+					"internalType": "bool",
+					"name": "",
+					"type": "bool"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
 			"name": "isWhiteListActive",
 			"outputs": [
 				{
@@ -1530,6 +1556,13 @@
 			"type": "function"
 		},
 		{
+			"inputs": [],
+			"name": "setWhiteList4Discount",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
 			"inputs": [
 				{
 					"internalType": "bool",
@@ -1538,6 +1571,19 @@
 				}
 			],
 			"name": "setWhiteListActive",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "amount",
+					"type": "uint256"
+				}
+			],
+			"name": "setWhiteListDiscount",
 			"outputs": [],
 			"stateMutability": "nonpayable",
 			"type": "function"

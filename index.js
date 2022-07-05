@@ -11,8 +11,8 @@ const config =
 		contactAddress: ""
 	},
 	mainnet:{ 
-		rpcUrl: "https://api.trinity-tech.io/esc",
-		contactAddress: "0x95F9Eb20509583aD00D58A21e3FcDe4a89e40016"
+		rpcUrl: "https://api.elastos.io/eth",
+		contactAddress: "0xA1019535E6b364523949EaF45F4B17521c1cb074"
 	},
 	defaultNetwork: "mainnet"
 }
