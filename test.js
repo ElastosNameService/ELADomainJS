@@ -1,30 +1,5 @@
-# Elastos Name Service
-
-Nodejs SDK
-
-Npm: https://www.npmjs.com/package/eladomains
-
-Github: https://github.com/ElastosNameService/ELADomainJS
-
-Before installing the package you need to check and be sure to install the packages below:
-
-```
-npm install web3 
-```
-
-Install Package
-
-```
-npm install eladomainjs
-```
-
-Call 
-```
 const domainjs = require('eladomainjs');
-```
-
-Set config
-```
+// set config
 const config = 
 {
 	testnet:{
@@ -37,19 +12,19 @@ const config =
 	},
 	defaultNetwork: "mainnet"
 }
-```
 
-Install
+call();
 
-```
-   // install
+async function call(){
+	
+	// install
 	const sdk = domainjs.SDK(config);
 
 	// change your domains
 	const _domain = "elastos.ela";
 	
 	// change your address
-	const _address = "0x5aEa3F3f358347Abf94B554389174F966faeEfb7";
+	const _address = "0x5aEa3F3f358347Abf94B554389174F966faeEfbB";
 	
 	// resolve domain to get the address of the owner. metadata: true // false default return metadata along with domain information
 	const owner = await sdk.getOwner(_domain, false);
@@ -84,11 +59,7 @@ Install
 	
 	//namehash is a recursive process that can generate a unique hash for any valid domain name.
 	const hashname = await sdk.hashname(_domain);
-```
 
-Pls update test.js for specific instructions
-
-Thanks!
-
-
+	console.log(hashname);
+}
 
